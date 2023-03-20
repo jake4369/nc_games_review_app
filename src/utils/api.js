@@ -5,10 +5,12 @@ const reviewApi = axios.create({
 });
 
 // GET all reviews
-export const getAllReviews = () => {
-  return reviewApi.get("/reviews").then((response) => {
-    return response;
-  });
+export const getAllReviews = (sortBy = "created_at", orderBy = "desc") => {
+  return reviewApi
+    .get(`/reviews?sort_by=${sortBy}&order=${orderBy}`)
+    .then((response) => {
+      return response;
+    });
 };
 
 // GET all catgories

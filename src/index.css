@@ -228,6 +228,55 @@ h3 {
   margin: 0 auto 6rem auto;
 }
 
+/* ====================
+ SINGLE REVIEW PAGE
+ ==================== */
+.single-review-container {
+  width: 87.2%;
+  max-width: 45.625rem;
+  margin: 0 auto 1.25rem auto;
+  color: #000;
+}
+
+.single-review__author-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.single-review__author-avatar {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.single-review__author-name {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  margin-right: 1rem;
+}
+
+.single-review__review-body {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-bottom: 1rem;
+}
+
+.single-review__stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 18.75rem;
+}
+
+.thumbs-up-icon {
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+  color: #5357b6;
+}
+
 /* ==================================================
   MEDIA QUERIES - TABLET STYLES
   ================================================== */

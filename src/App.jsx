@@ -19,7 +19,7 @@ const App = () => {
 
   useEffect(() => {
     getAllReviews().then((reviewsData) => {
-      setReviews(reviewsData.data.reviews);
+      setReviews(reviewsData);
     });
   }, []);
 
